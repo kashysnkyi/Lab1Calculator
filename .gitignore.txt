@@ -1,37 +1,37 @@
-# Build results
+# Build
 bin/
 obj/
 out/
 
-# Visual Studio cache
+# MAUI platform build folders
+bin/
+obj/
+platforms/
+
+# Visual Studio
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Maui / Android / iOS
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# Android / iOS packages
 *.apk
 *.aab
 *.ipa
 *.keystore
-platforms/
 
-# Logs
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Logs & temp
 *.log
-
-# Temporary files
 *.tmp
 *.temp
 *.bak
 *.backup
-
-# macOS
-.DS_Store
-
-# Windows Explorer
-Thumbs.db
-
-# JetBrains Rider
-.idea/
-*.iml
